@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Joke Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <h1>My Joke Website</h1>
+    <div class="joke">
+        Really funny joke 1
+        <button onclick="revealPunchline('punchline1')">Push to reveal punchline</button>
+        <div id="punchline1" class="reveal">Punchline 1 here</div>
+    </div>
+
+    <div class="joke">
+        Same, but joke 2
+        <button onclick="revealPunchline('punchline2')">Push to reveal punchline</button>
+        <div id="punchline2" class="reveal">Punchline 2 here</div>
+    </div>
+
+    <footer>
+        <p>© OpenAI 2023</p>
+    </footer>
+</body>
+</html>

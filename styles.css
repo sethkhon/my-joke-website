@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.joke {
+    margin-top: 20px;
+}
+
+.reveal {
+    display: none;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.joke button {
+    margin-top: 10px;
+}
